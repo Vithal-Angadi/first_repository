@@ -25,6 +25,8 @@ echo '$a' #single-quote-string-print
 first=`ls` #back-tick-command-execute
 seccond="$(ls -lrt)"
 
+echo $first $second
+
 #Ex:5-Debug_Enable[-x],Debug_disable[+x]
 
 set -x
@@ -38,6 +40,10 @@ echo $b
 set +x  
 
 #Ex:6
+
+price=100
+echo  "The price is \$$price"
+echo "The price is ${price}Rs"
 
 
 
