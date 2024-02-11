@@ -23,7 +23,7 @@ echo '$a' #single-quote-string-print
 #Ex:4
 
 first=`ls` #back-tick-command-execute
-seccond="$(ls -lrt)"
+seccond="$(ls -lrt)" #double quote -command-execute
 
 echo $first $second
 
